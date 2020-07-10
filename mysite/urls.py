@@ -21,7 +21,7 @@ from app.views import hello, index
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('hello/', hello),
-    path('/', index),
+    path('', index),
 
     # favicon.ico
     path(r'^favicon.ico$', RedirectView.as_view(url='static/favicon.ico')), 
