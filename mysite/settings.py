@@ -74,27 +74,27 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.mysql',
-#         'HOST': 'ethaning.mysql.pythonanywhere-services.com',
-#         'NAME': 'ethaning$pyanywhere',
-#         'USER': 'ethaning',
-#         'PASSWORD': 'pyanywhere123456',
-#         'PORT': '3306',
-#     }
-# }
-
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'HOST': '127.0.0.1',
-        'NAME': 'pyanywhere',
-        'USER': 'root',
-        'PASSWORD': '123456',
+        'HOST': 'ethaning.mysql.pythonanywhere-services.com',
+        'NAME': 'ethaning$pyanywhere',
+        'USER': 'ethaning',
+        'PASSWORD': 'pyanywhere123456',
         'PORT': '3306',
     }
 }
+
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.mysql',
+#         'HOST': '127.0.0.1',
+#         'NAME': 'pyanywhere',
+#         'USER': 'root',
+#         'PASSWORD': '123456',
+#         'PORT': '3306',
+#     }
+# }
 
 # Password validation
 # https://docs.djangoproject.com/en/3.0/ref/settings/#auth-password-validators
